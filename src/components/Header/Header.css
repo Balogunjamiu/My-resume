@@ -82,6 +82,16 @@ img{
         display: inline-block;
         width: auto;
     }
+    .description-container{
+        width: auto;
+    }
+    .content-container{
+        width: auto;
+    }.description-title{
+        font-weight: bold;
+        font-size: large;
+        color: black; 
+    }
 }
 .button{
     padding: 10px;
