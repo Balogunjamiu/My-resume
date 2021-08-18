@@ -73,6 +73,11 @@ img{
     font-weight: bold;
     font-size:larger;
 }
+@media (max-width:80rem){
+    .data_b{
+        display: inline-block;
+    }
+}
 .button{
     padding: 10px;
     background-color: black;
