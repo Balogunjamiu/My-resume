@@ -1,7 +1,7 @@
 import React from 'react'
-import './Header.css'
+import './Resume.css'
 
-const Header = () =>(
+const Resume = () =>(
   <header className="header">
         <div className="content-container">
             <div className="header__content">
@@ -135,4 +135,4 @@ const Header = () =>(
     </header>  
 )
 
-  export default Header
+  export default Resume

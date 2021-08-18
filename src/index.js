@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/Header/Header'
+import Resume from './components/Header/Resume'
 
 
 ReactDOM.render(
-    <Header />,
+    <Resume />,
   document.getElementById('root')
 );
 
