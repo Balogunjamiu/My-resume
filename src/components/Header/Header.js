@@ -52,7 +52,7 @@ const Header = () =>(
 
                     <h3 className="career-objectives_b">Education Backgrounds With Dates</h3>
                     <div className="data_b">
-                      <p>National Diploma (ND)Kwara State Polythecnic</p>
+                      <p>(OND)Kwara State Polythecnic</p>
                       <p>2018 –2021</p>
                     </div>
                     <div className="data_b">
