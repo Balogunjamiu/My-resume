@@ -35,10 +35,8 @@ const Resume = () =>{
     <Navbar.Brand href="#home"><img  alt="HNG logo" className="header__title" src='https://www.logolynx.com/images/logolynx/s_f8/f87fd3b9b3fb411a37d90d3bf4bd9464.jpeg'/></Navbar.Brand>
     </Container>
     </Navbar>
-
           </div>
-        <div className="content-container">
-       <header className="header">
+          <header className="header">
           <div className="mobile">
           <Button variant="primary" onClick={handleShow}>
         <MenuIcon></MenuIcon>
@@ -74,7 +72,9 @@ const Resume = () =>{
                </div>
 
                </Zoom>    
-        </header>                               
+        </header>
+        <div className="content-container">
+                                      
         <div  id="skills" className=''>
                          <h2 className="skills-title">Proficiency</h2>
                          <Shake>
