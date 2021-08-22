@@ -1,9 +1,13 @@
 .header{
-    background : url('/src/Photo.jpg'), url('/src/hng-hubs.jpg');
-    background-blend-mode: lighten;
+    background : url('/src/computer.jpg');
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 650px;
+    width: auto;
+}
+.typing{
+    padding-top: 350px;
+    padding-left: 40px;
+    color:black;
 }
 .header__title{
     color: black;
@@ -21,88 +25,121 @@ h1{
 .content-container{
     margin: 0 auto;
     padding: 0 20px;
-    max-width: 80rem;
+    max-width: 85rem;
 }
-img{
-    width: 100px;
+.header__title{
+    width: 50px;
 }
-.description-container{
-    margin: 0 auto;
-    max-width: 60rem;
-    border: 1px solid black;
+.about{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.about-text{
+    width: 50%;
+    margin: 40px;
+}
+ .about-pic {
+    width: 50%;
+    margin: 10px 0px 0px 10px;
+    float: right;
+}
+.skills{
+    color: black;
+    padding: 40px;
+}
+.skills-title{
+    text-align: center !important;
+    display: flex;
+    justify-content: space-around;
+}
+.line{
+    background-color: rgb(112, 108, 108);
+    color: black;
+    padding: 2px;
+    border-radius:10px;
+}
+
+.line:hover{
+    background-color: blanchedalmond;
+}
+@media(max-width:40rem){
+ .desktop{
+     display: none;
+ }
     
 }
-.description-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: xx-large;
-    color: black;
+@media(max-width:60rem){
+    .about{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .about-text{
+        margin-left: 20%;
+    }
+    .about-pic{
+        margin-right: 30%;
+    }
 }
-.career-objectives{
-    border: 1px solid black;
-    padding-left: 5px;
-    margin: 5px auto;
-}
-.career-objectives_b{
-    border: 1px solid black;
-    padding-left: 5px;
-    margin: 5px auto;
-    margin-top: 20px;
-}
-.career-objective-talk{
-    color:black;
-    font-weight: bold;
-    font-size:larger;
-    margin: 10px;
-}
-.data{
-    width: 20rem;
-    display: flex;
-    height: 30px;
-    justify-content: space-between;
-    font-weight: bold;
-    font-size:larger;
-}
-.data_b{
+@media(min-width:40rem){
+    .mobile{
+        display: none;
+    }   
+   }
+   .btn-primary{
+       background-color: black !important;
+   }
+   .data_b{
     width: 40rem;
     display: flex;
     height: 30px;
+    margin: 0 auto;
+    padding-top: 20px;
     justify-content: space-between;
     font-weight: bold;
-    font-size:larger;
+    font-size: large;
 }
-@media (max-width:80rem){
-    .data_b{
-        display: inline-block;
-        width: auto;
-    }
-    .data{
-        display: inline-block;
-        width: auto;
-    }
-    .description-container{
-        width: auto;
-    }
-    .content-container{
-        width: auto;
-    }.description-title{
-        font-weight: bold;
-        font-size: large;
-        color: black; 
-    }
+.data_a{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
-.button{
-    padding: 10px;
-    background-color: black;
-    border-radius: 5px;
+a{
+    text-decoration: none !important;
+    font-weight: bold;
 }
-.button:hover {
-    background-color: green;
-    transition: 5s ease-in-out;
+footer{
+    margin-top: 50px;
+    text-align: center;
 }
-.button > a{
-    text-decoration: none;
-    color: white;
+.dt{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+
 }
+.push{
+    margin-top: 30px;
+}
+.career-objectives_b{
+    padding-left: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.achievement{
+    margin-top: 20px;
+}
+.achievement-body{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+/* .about-text{
+    padding-top: 20%;
+} */
+
